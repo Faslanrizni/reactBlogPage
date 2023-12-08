@@ -1,0 +1,46 @@
+body{
+  /*background-color: #34495e;*/
+  height:auto;
+}
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  padding:10px;
+
+}
+.user-outer{
+  width: 100%;
+  height: 250px;
+  /*border:1px solid red;*/
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: #bdc3c7;
+  /*align-items: center;*/
+}
+.avatar-outer{
+  width: auto;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.avatar-outer{
+  width: 25%;
+  height: auto;
+  max-height: 100%;
+
+}
+.user-Data{
+  flex: 1;
+  /*border:1px solid red;*/
+  /*padding: 10px;*/
+  /*padding-bottom: 50px;*/
+  width: auto;
+  height: auto;
+
+}
