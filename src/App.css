@@ -7,13 +7,15 @@ body{
   height: 100vh;
   padding:10px;
 
+
 }
 .user-outer{
   width: 100%;
   height: 350px;
-  /*border:1px solid red;*/
+  border:1px solid red;
   padding: 10px;
   margin-bottom: 20px;
+  /*padding-left: 20px;*/
   display: flex;
   position: relative;
   overflow: hidden;
@@ -21,19 +23,25 @@ body{
   /*align-items: center;*/
 }
 .avatar-outer{
-  width: auto;
-  height: 100%;
+  width: 25%;
+  /*height: 100%;*/
   border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-}
-.avatar-outer{
-  width: 25%;
+
   height: auto;
   max-height: 100%;
 
+}
+.avatar-outer{
+
+}
+.avatar-outer img{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
 }
 .user-Data{
   flex: 1;
@@ -42,7 +50,7 @@ body{
   /*padding-bottom: 50px;*/
   width: auto;
   height: 450px;
-
+  padding-left:20px
 }
 .search-outer{
   width: 100%;

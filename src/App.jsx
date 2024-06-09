@@ -36,20 +36,20 @@ const users = [
 
 
 ]
-const customerNames = ['kamal','niamal','faslan'];
+const customerNames = ['kamal','animal','faslan'];
 
 
 
 // const names =
 // console.log(names);
 
-/*===========index/ uniqe key=================*/
-/*index is uniqe code for each object => if noerror will occure in console
-* each div/element have now uniqe index
+/*===========index/ unique key=================*/
+/*index is unique code for each object => if no error will occur in console
+* each div/element have now unique index
 * this manage by react
 * */
 
-/*===========index/ uniqe key=================*/
+/*===========index/ unique key=================*/
 function userManager(){
     return(
         <div className='wrapper'>
